@@ -59,7 +59,7 @@ while search_for_user == "1":
     if choice in ("1", "2", "3") and not found:
         print("User not found")
 
-    search_for_user = input("Search again? 1. Yes 2. No")
+    search_for_user = input("Search again? 1.\n Yes 2. No")
 
 if search_for_user == "2":
     print("Thank you !")
